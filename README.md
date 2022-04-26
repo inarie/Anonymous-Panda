@@ -1,5 +1,7 @@
 # Anonymous Panda
 
+![Metahumans used on the project](./4metahumans.jpg)
+
 `Anonymous Panda` is a thesis project designed to facilitate communication and expressionism for patients who want to remain anonymous during their mental health consultations.
 
 
