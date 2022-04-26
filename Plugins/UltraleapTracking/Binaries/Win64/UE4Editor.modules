@@ -1,0 +1,9 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"BodyState": "UE4Editor-BodyState.dll",
+		"UltraleapTracking": "UE4Editor-UltraleapTracking.dll",
+		"UltraleapTrackingEditor": "UE4Editor-UltraleapTrackingEditor.dll"
+	}
+}

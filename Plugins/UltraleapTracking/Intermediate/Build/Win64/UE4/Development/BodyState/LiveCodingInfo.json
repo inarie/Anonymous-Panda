@@ -1,0 +1,38 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BodyState.cpp.obj": [
+			"AnimNode_ModifyBodyStateMappedBones.cpp.obj",
+			"BodyStateAnimInstance.cpp.obj",
+			"BodyStateBoneComponent.cpp.obj",
+			"BodyStateBPLibrary.cpp.obj",
+			"BodyStateDevice.cpp.obj",
+			"BodyStateDeviceConfig.cpp.obj",
+			"BodyStateEstimatorComponent.cpp.obj",
+			"BodyStateHMDDevice.cpp.obj",
+			"BodyStateHMDSnapshot.cpp.obj",
+			"BodyStateSkeletonStorage.cpp.obj",
+			"BodyStateUtility.cpp.obj",
+			"FBodyState.cpp.obj",
+			"FBodyStateInputDevice.cpp.obj",
+			"BodyStateArm.cpp.obj",
+			"BodyStateBone.cpp.obj",
+			"BodyStateSkeleton.cpp.obj"
+		],
+		"Module.BodyState.gen.cpp.obj": [
+			"AnimNode_ModifyBodyStateMappedBones.gen.cpp.obj",
+			"BodyState.init.gen.cpp.obj",
+			"BodyStateAnimInstance.gen.cpp.obj",
+			"BodyStateArm.gen.cpp.obj",
+			"BodyStateBone.gen.cpp.obj",
+			"BodyStateBoneComponent.gen.cpp.obj",
+			"BodyStateBPLibrary.gen.cpp.obj",
+			"BodyStateDevice.gen.cpp.obj",
+			"BodyStateDeviceConfig.gen.cpp.obj",
+			"BodyStateEnums.gen.cpp.obj",
+			"BodyStateEstimatorComponent.gen.cpp.obj",
+			"BodyStateInputInterface.gen.cpp.obj",
+			"BodyStateSkeleton.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UltraleapTracking.cpp.obj": [
+			"FUltraleapTrackingInputDevice.cpp.obj",
+			"FUltraleapTrackingPlugin.cpp.obj",
+			"GrabClassifierComponent.cpp.obj",
+			"UltraleapIEFunctionLibrary.cpp.obj",
+			"LeapAsync.cpp.obj",
+			"LeapBlueprintFunctionLibrary.cpp.obj",
+			"LeapComponent.cpp.obj",
+			"LeapImage.cpp.obj",
+			"LeapLiveLink.cpp.obj",
+			"LeapUtility.cpp.obj",
+			"LeapWrapper.cpp.obj",
+			"OneEuroFilterComponent.cpp.obj",
+			"OpenXRToLeapWrapper.cpp.obj",
+			"TickInEditorStaticMeshComponent.cpp.obj",
+			"UltraleapInputListenerComponent.cpp.obj",
+			"UltraleapTrackingData.cpp.obj"
+		],
+		"Module.UltraleapTracking.gen.cpp.obj": [
+			"GrabClassifierComponent.gen.cpp.obj",
+			"LeapBlueprintFunctionLibrary.gen.cpp.obj",
+			"LeapComponent.gen.cpp.obj",
+			"OneEuroFilterComponent.gen.cpp.obj",
+			"TickInEditorStaticMeshComponent.gen.cpp.obj",
+			"UltraleapIEFunctionLibrary.gen.cpp.obj",
+			"UltraleapInputListenerComponent.gen.cpp.obj",
+			"UltraleapTracking.init.gen.cpp.obj",
+			"UltraleapTrackingData.gen.cpp.obj"
+		]
+	}
+}

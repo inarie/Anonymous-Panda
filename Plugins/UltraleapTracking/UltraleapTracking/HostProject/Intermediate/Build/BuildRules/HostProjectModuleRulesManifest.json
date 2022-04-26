@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Arie\\Documents\\Unreal Projects\\Metahuman\\Plugins\\UltraleapTracking\\UltraleapTracking\\HostProject\\Plugins\\UltraleapTracking\\Source\\UltraleapTrackingCore\\UltraleapTracking.Build.cs",
+		"C:\\Users\\Arie\\Documents\\Unreal Projects\\Metahuman\\Plugins\\UltraleapTracking\\UltraleapTracking\\HostProject\\Plugins\\UltraleapTracking\\Source\\UltraleapTrackingEditor\\UltraleapTrackingEditor.Build.cs",
+		"C:\\Users\\Arie\\Documents\\Unreal Projects\\Metahuman\\Plugins\\UltraleapTracking\\UltraleapTracking\\HostProject\\Plugins\\UltraleapTracking\\Source\\ThirdParty\\BodyState\\BodyState.Build.cs"
+	],
+	"EngineVersion": "4.27.1"
+}
