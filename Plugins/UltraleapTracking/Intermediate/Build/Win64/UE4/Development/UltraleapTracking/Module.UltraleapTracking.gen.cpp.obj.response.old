@@ -28,13 +28,13 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\LeapSDK\Include
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Private
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\UltraleapTracking
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public\InteractionEngine
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\LeapSDK\Include"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Private"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\UltraleapTracking"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\UltraleapTrackingCore"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public\InteractionEngine"
 /I ..\Intermediate\Build\Win64\UE4\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -359,11 +359,11 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\LiveLinkMessageBusFramework
 /I Runtime\LiveLinkMessageBusFramework\Public
 /I Runtime\LiveLinkMessageBusFramework
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -393,12 +393,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp"
-/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Definitions.UltraleapTracking.h"
-/Fo"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp.obj"
+/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp"
+/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Definitions.UltraleapTracking.h"
+/Fo"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp.obj"
 /TP
 /GR-
 /W4

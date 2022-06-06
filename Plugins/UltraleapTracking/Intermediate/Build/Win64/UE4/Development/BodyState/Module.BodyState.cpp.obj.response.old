@@ -28,48 +28,19 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\LeapSDK\Include
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Private
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\UltraleapTracking
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\UltraleapTrackingCore\Public\InteractionEngine
-/I ..\Intermediate\Build\Win64\UE4\Inc\Engine
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Private"
+/I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Audio
-/I Runtime\Engine\Public\Blueprint
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\HLOD
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\Net\Util
-/I Runtime\Engine\Public\ODSC
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsChaos
-/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsPhysX
-/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsShared
-/I Runtime\Engine\Public\Physics\Tests
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Streaming
-/I Runtime\Engine\Public\Subsystems
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
-/I Runtime\Engine\Public\VT
+/I Runtime\CoreUObject\Public
+/I Runtime\CoreUObject
+/I Runtime\CoreUObject\Public\AssetRegistry
+/I Runtime\CoreUObject\Public\Blueprint
+/I Runtime\CoreUObject\Public\Internationalization
+/I Runtime\CoreUObject\Public\Misc
+/I Runtime\CoreUObject\Public\Serialization
+/I Runtime\CoreUObject\Public\Serialization\Formatters
+/I Runtime\CoreUObject\Public\Templates
+/I Runtime\CoreUObject\Public\UObject
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -115,17 +86,40 @@
 /I Runtime\TraceLog\Public\Trace
 /I Runtime\TraceLog\Public\Trace\Detail
 /I Runtime\TraceLog\Public\Trace\Detail\Protocols
-/I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
-/I Runtime\CoreUObject
-/I Runtime\CoreUObject\Public\AssetRegistry
-/I Runtime\CoreUObject\Public\Blueprint
-/I Runtime\CoreUObject\Public\Internationalization
-/I Runtime\CoreUObject\Public\Misc
-/I Runtime\CoreUObject\Public\Serialization
-/I Runtime\CoreUObject\Public\Serialization\Formatters
-/I Runtime\CoreUObject\Public\Templates
-/I Runtime\CoreUObject\Public\UObject
+/I ..\Intermediate\Build\Win64\UE4\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Audio
+/I Runtime\Engine\Public\Blueprint
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\HLOD
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\Net\Util
+/I Runtime\Engine\Public\ODSC
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsChaos
+/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsPhysX
+/I Runtime\Engine\Public\Physics\ImmediatePhysics\ImmediatePhysicsShared
+/I Runtime\Engine\Public\Physics\Tests
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Streaming
+/I Runtime\Engine\Public\Subsystems
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
+/I Runtime\Engine\Public\VT
 /I ..\Intermediate\Build\Win64\UE4\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -338,6 +332,13 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
+/I ..\Intermediate\Build\Win64\UE4\Inc\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public
+/I Runtime\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public\AnimNodes
+/I Runtime\AnimGraphRuntime\Public\AnimNotifies
+/I Runtime\AnimGraphRuntime\Public\BoneControllers
+/I Runtime\AnimGraphRuntime\Public\RBF
 /I Runtime\InputDevice\Public
 /I Runtime\InputDevice
 /I ..\Intermediate\Build\Win64\UE4\Inc\HeadMountedDisplay
@@ -349,21 +350,12 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\MRMesh
 /I Runtime\MRMesh\Public
 /I Runtime\MRMesh
-/I Runtime\Projects\Public
-/I Runtime\Projects
-/I Runtime\Projects\Public\Interfaces
-/I ..\Intermediate\Build\Win64\UE4\Inc\LiveLinkInterface
-/I Runtime\LiveLinkInterface\Public
-/I Runtime\LiveLinkInterface
-/I Runtime\LiveLinkInterface\Public\Roles
-/I ..\Intermediate\Build\Win64\UE4\Inc\LiveLinkMessageBusFramework
-/I Runtime\LiveLinkMessageBusFramework\Public
-/I Runtime\LiveLinkMessageBusFramework
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState
-/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState"
+/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -393,12 +385,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp"
-/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Definitions.UltraleapTracking.h"
-/Fo"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\UltraleapTracking\Module.UltraleapTracking.gen.cpp.obj"
+/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp"
+/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Definitions.BodyState.h"
+/Fo"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp.obj"
 /TP
 /GR-
 /W4

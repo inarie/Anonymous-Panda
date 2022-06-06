@@ -13,56 +13,56 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ULTRALEAPTRACKING_UltraleapTrackingData_generated_h
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_367_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_367_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapFrameData_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapFrameData>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_300_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_300_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapHandData_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapHandData>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_268_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_268_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapDigitData_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapDigitData>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_236_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_236_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapPalmData_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapPalmData>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_213_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_213_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapBoneData_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapBoneData>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_129_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_129_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapOptions_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapOptions>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_113_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_113_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapStats_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapStats>();
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_67_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h_67_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLeapDevice_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -70,7 +70,7 @@ template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapStats>(
 template<> ULTRALEAPTRACKING_API UScriptStruct* StaticStruct<struct FLeapDevice>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h
+#define CURRENT_FILE_ID anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_UltraleapTrackingData_h
 
 
 #define FOREACH_ENUM_ELEAPQUATSWIZZLEAXISB(op) \

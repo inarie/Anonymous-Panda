@@ -35,7 +35,7 @@
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
 #define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\UE_4.27\\Engine"
-#define UE_LIVE_CODING_PROJECT "C:\\Users\\Arie\\Documents\\Unreal Projects\\Metahuman\\Metahuman.uproject"
+#define UE_LIVE_CODING_PROJECT "C:\\Users\\Arie\\Documents\\GitHub\\anonymous-panda\\Metahuman.uproject"
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
 #define UBT_COMPILED_PLATFORM Win64
