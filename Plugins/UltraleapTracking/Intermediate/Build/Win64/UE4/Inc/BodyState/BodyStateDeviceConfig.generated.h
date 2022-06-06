@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BODYSTATE_BodyStateDeviceConfig_generated_h
 
-#define Metahuman_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateDeviceConfig_h_39_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateDeviceConfig_h_39_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FBodyStateDeviceConfig_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> BODYSTATE_API UScriptStruct* StaticStruct<struct FBodyStateDeviceConfig>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metahuman_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateDeviceConfig_h
+#define CURRENT_FILE_ID anonymous_panda_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateDeviceConfig_h
 
 
 #define FOREACH_ENUM_EBODYSTATEDEVICEINPUTTYPE(op) \

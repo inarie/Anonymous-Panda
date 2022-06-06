@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BODYSTATE_BodyStateEnums_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metahuman_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateEnums_h
+#define CURRENT_FILE_ID anonymous_panda_Plugins_UltraleapTracking_Source_ThirdParty_BodyState_Public_BodyStateEnums_h
 
 
 #define FOREACH_ENUM_EBODYSTATEBASICBONETYPE(op) \

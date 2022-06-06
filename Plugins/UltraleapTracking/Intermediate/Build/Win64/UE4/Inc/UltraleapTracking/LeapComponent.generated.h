@@ -18,7 +18,7 @@ enum class ELeapQuatSwizzleAxisB : uint8;
 #endif
 #define ULTRALEAPTRACKING_LeapComponent_generated_h
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_24_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_24_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapTrackingModeSignature_Parms \
 { \
 	TEnumAsByte<ELeapMode> Flag; \
@@ -31,7 +31,7 @@ static inline void FLeapTrackingModeSignature_DelegateWrapper(const FMulticastSc
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_23_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_23_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapImageEventSignature_Parms \
 { \
 	UTexture2D* Texture; \
@@ -46,7 +46,7 @@ static inline void FLeapImageEventSignature_DelegateWrapper(const FMulticastScri
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_22_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_22_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapPolicySignature_Parms \
 { \
 	TArray<TEnumAsByte<ELeapPolicyFlag> > Flags; \
@@ -59,7 +59,7 @@ static inline void FLeapPolicySignature_DelegateWrapper(const FMulticastScriptDe
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_21_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_21_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapHandSignature_Parms \
 { \
 	FLeapHandData Hand; \
@@ -72,7 +72,7 @@ static inline void FLeapHandSignature_DelegateWrapper(const FMulticastScriptDele
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_20_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_20_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapFrameSignature_Parms \
 { \
 	FLeapFrameData Frame; \
@@ -85,7 +85,7 @@ static inline void FLeapFrameSignature_DelegateWrapper(const FMulticastScriptDel
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_19_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_19_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapVisibilityBoolSignature_Parms \
 { \
 	bool bIsVisible; \
@@ -98,7 +98,7 @@ static inline void FLeapVisibilityBoolSignature_DelegateWrapper(const FMulticast
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_18_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_18_DELEGATE \
 struct _Script_UltraleapTracking_eventLeapDeviceSignature_Parms \
 { \
 	FString DeviceName; \
@@ -111,15 +111,15 @@ static inline void FLeapDeviceSignature_DelegateWrapper(const FMulticastScriptDe
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_17_DELEGATE \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_17_DELEGATE \
 static inline void FLeapEventSignature_DelegateWrapper(const FMulticastScriptDelegate& LeapEventSignature) \
 { \
 	LeapEventSignature.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetSwizzles); \
 	DECLARE_FUNCTION(execGetLatestFrameData); \
@@ -127,7 +127,7 @@ static inline void FLeapEventSignature_DelegateWrapper(const FMulticastScriptDel
 	DECLARE_FUNCTION(execSetShouldAddHmdOrigin);
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetSwizzles); \
 	DECLARE_FUNCTION(execGetLatestFrameData); \
@@ -135,7 +135,7 @@ static inline void FLeapEventSignature_DelegateWrapper(const FMulticastScriptDel
 	DECLARE_FUNCTION(execSetShouldAddHmdOrigin);
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS_NO_PURE_DECLS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULeapComponent(); \
 	friend struct Z_Construct_UClass_ULeapComponent_Statics; \
@@ -144,7 +144,7 @@ public: \
 	DECLARE_SERIALIZER(ULeapComponent)
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS \
 private: \
 	static void StaticRegisterNativesULeapComponent(); \
 	friend struct Z_Construct_UClass_ULeapComponent_Statics; \
@@ -153,7 +153,7 @@ public: \
 	DECLARE_SERIALIZER(ULeapComponent)
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_STANDARD_CONSTRUCTORS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULeapComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULeapComponent) \
@@ -166,7 +166,7 @@ private: \
 public:
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_ENHANCED_CONSTRUCTORS \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULeapComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -179,28 +179,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULeapComponent)
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_26_PROLOG
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_GENERATED_BODY_LEGACY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_26_PROLOG
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_STANDARD_CONSTRUCTORS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_GENERATED_BODY \
+#define anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS_NO_PURE_DECLS \
-	Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_ENHANCED_CONSTRUCTORS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_PRIVATE_PROPERTY_OFFSET \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_SPARSE_DATA \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_INCLASS_NO_PURE_DECLS \
+	anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h_30_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class LeapComponent."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -208,7 +208,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ULTRALEAPTRACKING_API UClass* StaticClass<class ULeapComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metahuman_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h
+#define CURRENT_FILE_ID anonymous_panda_Plugins_UltraleapTracking_Source_UltraleapTrackingCore_Public_LeapComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

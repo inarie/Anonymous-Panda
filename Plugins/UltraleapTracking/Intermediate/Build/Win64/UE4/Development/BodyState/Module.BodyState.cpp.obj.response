@@ -28,7 +28,7 @@
 /wd4244
 /wd4838
 /I .
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Private"
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Private
 /I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -350,12 +350,12 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\MRMesh
 /I Runtime\MRMesh\Public
 /I Runtime\MRMesh
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState"
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty"
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source"
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public"
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState"
-/I "C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton"
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Inc\BodyState
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState
+/I C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Source\ThirdParty\BodyState\Public\Skeleton
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -385,12 +385,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp"
-/FI"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Definitions.BodyState.h"
-/Fo"C:\Users\Arie\Documents\Unreal Projects\Metahuman\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp.obj"
+/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Arie\Documents\GitHub\anonymous-panda\Intermediate\Build\Win64\Metahuman\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp"
+/FI"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Definitions.BodyState.h"
+/Fo"C:\Users\Arie\Documents\GitHub\anonymous-panda\Plugins\UltraleapTracking\Intermediate\Build\Win64\UE4\Development\BodyState\Module.BodyState.cpp.obj"
 /TP
 /GR-
 /W4
