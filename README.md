@@ -26,6 +26,6 @@ After that, simply open it in the unreal engine and you're good to go!
 
 If you just want to test the face and/or hand tracking, just download it through the following link, [Anonymous Panda](https://drive.google.com/file/d/1qZfL_a2a7hfsz0TBbuHyXAyhTjICNrur/view?usp=sharing)
 
-After that, simply open the.exe file and you're ready to go!
+After that, simply open the .exe file and you're ready to go!
 
 > **_NOTE:_**  Don't forget to have your iPhone with the correct ip address and the leap motion properly turned on and with the plugins installed correctly!
