@@ -1,4 +1,4 @@
-# Anonymous Panda
+# Anonymous Panda :panda_face:
 
 ![Metahumans used on the project](./4metahumans.jpg)
 
