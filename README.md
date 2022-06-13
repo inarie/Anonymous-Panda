@@ -4,6 +4,7 @@
 
 `Anonymous Panda` is a thesis project designed to facilitate communication and expressionism for patients who want to remain anonymous during their mental health consultations.
 
+---
 
 ## Prerequisites
 
@@ -12,6 +13,7 @@
 - Ultraleap Gemini >= 5.3.1
 - Leap Motion Controller
 
+---
 
 ## Usage
 
