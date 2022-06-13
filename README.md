@@ -25,7 +25,7 @@ After that, simply open it in the unreal engine and you're good to go!
 
 ## Testing
 
-If you just want to test the face and/or hand tracking, just download it through the following link, [Anonymous Panda](https://drive.google.com/file/d/1kyRNylSsw3chD4vHLGp7M6_ZZt2reH20/view?usp=sharing)
+If you just want to test the face and/or hand tracking, just download it through the following link, [Anonymous Panda](https://drive.google.com/file/d/1H4jWYfx_ht4MLTdJh3VENhw3I01xFUt5/view?usp=sharing)
 
 After that, simply open the .exe file and you're ready to go!
 
